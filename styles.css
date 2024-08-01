@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100%;
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 50px;
+  background-color: gray;
+  text-align: left;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: red;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.search-container {
+  background-color: #000;
+  text-align: right;
+}
+
+input[type='text'] {
+  padding: 4px;
+  font-size: 11px;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 13px;
+  color: black;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: left;
+  background-color: rgb(100, 81, 81);
+}
+
+h3 {
+  color: red;
+  background-color: white;
+}
+
+.form {
+  width: 600px;
+}
+
+input,
+textarea {
+  outline-color: red;
+  border-radius: 5px;
+  background-color: rgb(71, 71, 71);
+  color: rgb(181, 179, 179);
+}
+select,
+option {
+  background-color: rgb(71, 71, 71);
+  outline-color: red;
+  border-radius: 5px;
+}
